@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="eloan-mgrtool:war">
+    <output-path>$PROJECT_DIR$/eloan-mgrtool/target</output-path>
+    <root id="archive" name="eloan-mgrtool.war">
+      <element id="artifact" artifact-name="eloan-mgrtool:war exploded" />
+    </root>
+  </artifact>
+</component>

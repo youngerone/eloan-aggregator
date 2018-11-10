@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eloan-aggregator.iml" filepath="$PROJECT_DIR$/eloan-aggregator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eloan-core/eloan-core.iml" filepath="$PROJECT_DIR$/eloan-core/eloan-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eloan-mgrtool/eloan-mgrtool.iml" filepath="$PROJECT_DIR$/eloan-mgrtool/eloan-mgrtool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eloan-uiweb/eloan-uiweb.iml" filepath="$PROJECT_DIR$/eloan-uiweb/eloan-uiweb.iml" />
+    </modules>
+  </component>
+</project>

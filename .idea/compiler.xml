@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eloan-core" />
+        <module name="eloan-mgrtool" />
+        <module name="eloan-uiweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eloan-aggregator" target="1.7" />
+      <module name="eloan-core" target="1.7" />
+      <module name="eloan-mgrtool" target="1.7" />
+      <module name="eloan-uiweb" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
