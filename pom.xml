@@ -9,16 +9,17 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-
     <modules>
         <module>eloan-core</module>
         <module>eloan-uiweb</module>
         <module>eloan-mgrtool</module>
         <module>eloan-uiweb</module>
     </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -26,7 +27,6 @@
             <version>4.12</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
