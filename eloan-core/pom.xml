@@ -5,21 +5,17 @@
         <artifactId>eloan-aggregator</artifactId>
         <groupId>com.younger</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>eloan-core</artifactId>
+    <packaging>jar</packaging>
     <name>eloan-core</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.younger</groupId>
-            <artifactId>eloan-core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
     <build>
         <plugins>
+
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
