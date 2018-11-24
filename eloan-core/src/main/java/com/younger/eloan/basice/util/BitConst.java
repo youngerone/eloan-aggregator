@@ -18,4 +18,7 @@ public class BitConst {
 
     //0的精度
     public static  final BigDecimal SERO = new BigDecimal("0.0000");
+
+    //初始化账户余额
+    public static final BigDecimal BORROW_LIMIT = new BigDecimal("2000.0000");
 }

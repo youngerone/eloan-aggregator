@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.younger.eloan.basice.mapper.SystemdictionaryitemMapper" >
+  <resultMap id="BaseResultMap" type="com.younger.eloan.basice.domain.Systemdictionaryitem" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="parentId" property="parentid" jdbcType="BIGINT" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="intro" property="intro" jdbcType="VARCHAR" />
+    <result column="sequence" property="sequence" jdbcType="INTEGER" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from `systemDictionaryItem`
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.younger.eloan.basice.domain.Systemdictionaryitem" useGeneratedKeys="true" keyProperty="id" >
+    insert into `systemDictionaryItem` (parentId, title, intro, 
+      sequence)
+    values (#{parentid,jdbcType=BIGINT}, #{title,jdbcType=VARCHAR}, #{intro,jdbcType=VARCHAR}, 
+      #{sequence,jdbcType=INTEGER})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.younger.eloan.basice.domain.Systemdictionaryitem" >
+    update `systemDictionaryItem`
+    set parentId = #{parentid,jdbcType=BIGINT},
+      title = #{title,jdbcType=VARCHAR},
+      intro = #{intro,jdbcType=VARCHAR},
+      sequence = #{sequence,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select id, parentId, title, intro, sequence
+    from `systemDictionaryItem`
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, parentId, title, intro, sequence
+    from `systemDictionaryItem`
+  </select>
+</mapper>

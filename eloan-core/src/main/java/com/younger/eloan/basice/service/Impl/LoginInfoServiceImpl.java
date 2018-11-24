@@ -1,8 +1,13 @@
 package com.younger.eloan.basice.service.Impl;
 
+import com.younger.eloan.basice.domain.Account;
 import com.younger.eloan.basice.domain.Logininfo;
+import com.younger.eloan.basice.domain.Userinfo;
+import com.younger.eloan.basice.mapper.AccountMapper;
 import com.younger.eloan.basice.mapper.LogininfoMapper;
+import com.younger.eloan.basice.mapper.UserinfoMapper;
 import com.younger.eloan.basice.service.ILoginInfoService;
+import com.younger.eloan.basice.util.BitConst;
 import com.younger.eloan.basice.util.MD5;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,6 +20,12 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
 
     @Autowired
     private LogininfoMapper logininfoMapper;
+
+    @Autowired
+    private AccountMapper accountMapper;
+
+    @Autowired
+    private UserinfoMapper userinfoMapper;
 
     @Override
     public void register(String userName, String pwd) {
@@ -30,8 +41,20 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
         logininfo.setPassword(MD5.encode(pwd));
         logininfo.setState(Logininfo.NORMAL);
         logininfoMapper.insert(logininfo);
-    }
 
+        //创建用户的关联信息
+        Account account = new Account();
+        account.setId(logininfo.getId());
+
+        account.setRemainborrowlimit(BitConst.BORROW_LIMIT);
+        account.setBorrowLimitAmount(BitConst.BORROW_LIMIT);
+        this.accountMapper.insert(account);
+
+        //创建用户相关联的用户信息
+        Userinfo userinfo = new Userinfo();
+        userinfo.setId(logininfo.getId());
+        this.userinfoMapper.insert(userinfo);
+    }
     @Override
     public boolean checkUserName(String name) {
         int count = this.logininfoMapper.selectCountByUserName(name);

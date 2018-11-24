@@ -9,7 +9,6 @@ import java.math.BigDecimal;
 @Setter
 @Getter
 public class Account extends BaseDomain {
-
     /**
      * 交易密码
      */
@@ -59,5 +58,6 @@ public class Account extends BaseDomain {
      * 授信额度
      */
     private BigDecimal borrowLimitAmount = BitConst.SERO;
+
 
 }

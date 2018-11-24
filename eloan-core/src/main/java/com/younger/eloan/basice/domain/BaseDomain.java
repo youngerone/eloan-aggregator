@@ -9,6 +9,6 @@ import java.io.Serializable;
 @Getter
 public class BaseDomain implements Serializable {
 
-    protected Long id;
+    public Long id;
 
 }
