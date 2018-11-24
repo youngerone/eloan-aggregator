@@ -11,6 +11,9 @@ public class ResultJSON {
 
     private int errCode;
 
+
+    public ResultJSON(){}
+
     public ResultJSON(boolean success){
         this.success=success;
     }

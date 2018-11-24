@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="eloan-uiweb:war">
-    <output-path>$PROJECT_DIR$/eloan-uiweb/target</output-path>
-    <root id="archive" name="eloan-uiweb.war">
-      <element id="artifact" artifact-name="eloan-uiweb:war exploded" />
-    </root>
-  </artifact>
-</component>

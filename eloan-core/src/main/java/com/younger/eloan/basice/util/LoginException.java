@@ -3,7 +3,7 @@ package com.younger.eloan.basice.util;
 /**
  * 自定义异常
  */
-public class LogicException extends  RuntimeException {
+public class LoginException extends  RuntimeException {
 
     /**
      * 异常错误码,类似于http响应的状态码，比如404代表（页面没有找到）
@@ -12,11 +12,11 @@ public class LogicException extends  RuntimeException {
 
     private int errCode;
 
-    public  LogicException(String message){
+    public  LoginException(String message){
         super(message);
     }
 
-    public LogicException (String message,int errCode){
+    public LoginException (String message,int errCode){
         super(message);
         this.errCode=errCode;
     }

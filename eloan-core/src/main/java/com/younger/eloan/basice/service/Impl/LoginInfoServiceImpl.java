@@ -9,6 +9,7 @@ import com.younger.eloan.basice.mapper.UserinfoMapper;
 import com.younger.eloan.basice.service.ILoginInfoService;
 import com.younger.eloan.basice.util.BitConst;
 import com.younger.eloan.basice.util.MD5;
+import com.younger.eloan.basice.util.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -68,7 +69,26 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
         return isexsit;
     }
 
+    /**
+     * 用户登录
+     * @param username
+     * @param password
+     * @return
+     */
+    @Override
+    public Logininfo login(String username, String password) {
+        password = MD5.encode(password);
+        Logininfo logininfo = userinfoMapper.selectByUserNameAndPassword(username, password);
+        if(logininfo!=null{
+            UserContext.setLoginInfo(logininfo);
+        }
+        return logininfo;
+    }
+
+
     private  boolean isexsit(int count, Predicate<Integer> p){
         return  p.test(count);
     }
+
+
 }
