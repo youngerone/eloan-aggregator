@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.younger.eloan.basice.mapper.UserinfoMapper" >
+  <resultMap id="BaseResultMap" type="com.younger.eloan.basice.domain.Userinfo" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="version" property="version" jdbcType="INTEGER" />
+    <result column="bitState" property="bitstate" jdbcType="BIGINT" />
+    <result column="realName" property="realname" jdbcType="VARCHAR" />
+    <result column="idNumber" property="idnumber" jdbcType="VARCHAR" />
+    <result column="phoneNumber" property="phonenumber" jdbcType="VARCHAR" />
+    <result column="incomeGrade_id" property="incomegradeId" jdbcType="BIGINT" />
+    <result column="marriage_id" property="marriageId" jdbcType="BIGINT" />
+    <result column="kidCount_id" property="kidcountId" jdbcType="BIGINT" />
+    <result column="educationBackground_id" property="educationbackgroundId" jdbcType="BIGINT" />
+    <result column="houseCondition_id" property="houseconditionId" jdbcType="BIGINT" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from `userinfo`
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.younger.eloan.basice.domain.Userinfo" useGeneratedKeys="true" keyProperty="id" >
+    insert into `userinfo` (version, bitState, realName, 
+      idNumber, phoneNumber, incomeGrade_id, 
+      marriage_id, kidCount_id, educationBackground_id, 
+      houseCondition_id)
+    values (#{version,jdbcType=INTEGER}, #{bitstate,jdbcType=BIGINT}, #{realname,jdbcType=VARCHAR}, 
+      #{idnumber,jdbcType=VARCHAR}, #{phonenumber,jdbcType=VARCHAR}, #{incomegradeId,jdbcType=BIGINT}, 
+      #{marriageId,jdbcType=BIGINT}, #{kidcountId,jdbcType=BIGINT}, #{educationbackgroundId,jdbcType=BIGINT}, 
+      #{houseconditionId,jdbcType=BIGINT})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.younger.eloan.basice.domain.Userinfo" >
+    update `userinfo`
+    set version = #{version,jdbcType=INTEGER},
+      bitState = #{bitstate,jdbcType=BIGINT},
+      realName = #{realname,jdbcType=VARCHAR},
+      idNumber = #{idnumber,jdbcType=VARCHAR},
+      phoneNumber = #{phonenumber,jdbcType=VARCHAR},
+      incomeGrade_id = #{incomegradeId,jdbcType=BIGINT},
+      marriage_id = #{marriageId,jdbcType=BIGINT},
+      kidCount_id = #{kidcountId,jdbcType=BIGINT},
+      educationBackground_id = #{educationbackgroundId,jdbcType=BIGINT},
+      houseCondition_id = #{houseconditionId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select id, version, bitState, realName, idNumber, phoneNumber, incomeGrade_id, marriage_id, 
+    kidCount_id, educationBackground_id, houseCondition_id
+    from `userinfo`
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, version, bitState, realName, idNumber, phoneNumber, incomeGrade_id, marriage_id, 
+    kidCount_id, educationBackground_id, houseCondition_id
+    from `userinfo`
+  </select>
+</mapper>

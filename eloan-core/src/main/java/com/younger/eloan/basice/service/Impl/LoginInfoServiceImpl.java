@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.security.auth.login.LoginException;
+import java.util.function.Predicate;
 
 @Service("loginInfoService")
 public class LoginInfoServiceImpl implements ILoginInfoService {
@@ -34,10 +35,17 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
     @Override
     public boolean checkUserName(String name) {
         int count = this.logininfoMapper.selectCountByUserName(name);
-      // int count=0;
-        if(count>=1){
-            return false;
-        }
-        return true;
+        boolean isexsit = isexsit(count, (e) -> {
+            if (e >= 1) {
+                return false;
+            } else {
+                return true;
+            }
+        });
+        return isexsit;
+    }
+
+    private  boolean isexsit(int count, Predicate<Integer> p){
+        return  p.test(count);
     }
 }

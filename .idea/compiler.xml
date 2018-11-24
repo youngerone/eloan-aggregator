@@ -13,7 +13,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eloan-aggregator" target="1.7" />
-      <module name="eloan-core" target="1.7" />
+      <module name="eloan-core" target="1.8" />
       <module name="eloan-mgrtool" target="1.7" />
       <module name="eloan-uiweb" target="1.7" />
     </bytecodeTargetLevel>
