@@ -21,4 +21,10 @@ public class BitConst {
 
     //初始化账户余额
     public static final BigDecimal BORROW_LIMIT = new BigDecimal("2000.0000");
+
+    //系统后台默认的账号
+    public final static String DEFAULT_ADMIN_NAME="admin";
+
+    //系统后台默认的密码
+    public final static String DEFAULT_ADMIN_PASSWORD="admin123456";
 }

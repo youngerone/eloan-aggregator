@@ -1,4 +1,4 @@
-package com.younger.eloan.uiweb.util;
+package com.younger.eloan.basice.util;
 
 /**
  * 结果返回
@@ -18,12 +18,12 @@ public class ResultJSON {
         this.success=success;
     }
 
-    public ResultJSON(Object msg,int errCode){
+    public ResultJSON(Object msg, int errCode){
         this.msg=msg;
         this.errCode=errCode;
     }
 
-    public ResultJSON(boolean success,Object msg){
+    public ResultJSON(boolean success, Object msg){
         this.success=success;
         this.msg=msg;
     }

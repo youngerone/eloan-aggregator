@@ -38,27 +38,27 @@ public class Userinfo  extends  BaseDomain{
     /**
      * 月收入
      */
-    private SystemDictionaryItem incomeGrade;
+    private Systemdictionaryitem incomeGrade;
 
     /**
      * 婚姻情况
      */
-    private SystemDictionaryItem marriage;
+    private Systemdictionaryitem marriage;
 
     /**
      * 子女情况
      */
-    private SystemDictionaryItem kidCount;
+    private Systemdictionaryitem kidCount;
 
     /**
      * 学历
      */
-    private SystemDictionaryItem educationBackground;
+    private Systemdictionaryitem educationBackground;
 
     /**
      * 住房条件
      */
-    private SystemDictionaryItem houseCondition;
+    private Systemdictionaryitem houseCondition;
 
     public static Userinfo empty(Long id) {
         Userinfo info = new Userinfo();

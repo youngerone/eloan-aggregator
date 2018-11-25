@@ -39,10 +39,16 @@
   </select>
   
   <select id="selectCountByUserName" parameterType="java.lang.String" resultType="int">
-    select count(id) from logininfo where username=#{username}
+    select count(id) from logininfo where username=#{username} AND usertype=#{usertype}
   </select>
 
-  <select id="selectCountByUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
-    SELECT id,username,state from logininfo WHERE username=#{username} AND password=#{password}
+  <select id="selectByUserNameAndPassword" parameterType="java.lang.String" resultMap="BaseResultMap">
+    SELECT id,username,state
+  	FROM logininfo
+  	WHERE username = #{username} AND password = #{password} AND usertype=#{usertype}
+  </select>
+
+  <select id="selectUserTypeCount" parameterType="int" resultType="int">
+    SELECT COUNT(id) FROM logininfo WHERE usertype=#{usertype}
   </select>
 </mapper>

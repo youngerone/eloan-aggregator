@@ -1,7 +1,8 @@
 package com.younger.eloan.uiweb.controller;
 
+import com.younger.eloan.basice.domain.Logininfo;
 import com.younger.eloan.basice.service.ILoginInfoService;
-import com.younger.eloan.uiweb.util.ResultJSON;
+import com.younger.eloan.basice.util.ResultJSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +16,7 @@ public class RegisterController extends BaseController {
 
     @RequestMapping("/register")
     @ResponseBody
-    public ResultJSON register(String username,String password){
+    public ResultJSON register(String username, String password){
         try {
             this.loginInfoService.register(username,password);
             return new ResultJSON(true,"注册成功");
@@ -27,6 +28,6 @@ public class RegisterController extends BaseController {
     @ResponseBody
     @RequestMapping(value = "/checkUsername")
     public ResultJSON checkUsername(String username){
-        return new ResultJSON(this.loginInfoService.checkUserName(username));
+        return new ResultJSON(this.loginInfoService.checkUserName(username, Logininfo.NORMAL_USER));
     }
 }

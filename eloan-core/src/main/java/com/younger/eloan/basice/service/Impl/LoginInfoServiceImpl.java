@@ -29,9 +29,9 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
     private UserinfoMapper userinfoMapper;
 
     @Override
-    public void register(String userName, String pwd) {
+    public void register(String userName, String pwd,int userType) {
         //判断用户是否存在
-        int count = this.logininfoMapper.selectCountByUserName(userName);
+        int count = this.logininfoMapper.selectCountByUserName(userName,userType);
 
         if(count>=1){
             new LoginException("用户已经存在");
@@ -40,7 +40,10 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
         Logininfo logininfo = new Logininfo();
         logininfo.setUsername(userName);
         logininfo.setPassword(MD5.encode(pwd));
-        logininfo.setState(Logininfo.NORMAL);
+        //用户状态
+        logininfo.setState(Logininfo.STATE_NORMAL);
+        //用户为前台用户
+        logininfo.setUserType(logininfo.USERTYPE_USER);
         logininfoMapper.insert(logininfo);
 
         //创建用户的关联信息
@@ -48,7 +51,7 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
         account.setId(logininfo.getId());
 
         account.setRemainborrowlimit(BitConst.BORROW_LIMIT);
-        account.setBorrowLimitAmount(BitConst.BORROW_LIMIT);
+        account.setBorrowlimitamount(BitConst.BORROW_LIMIT);
         this.accountMapper.insert(account);
 
         //创建用户相关联的用户信息
@@ -57,8 +60,8 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
         this.userinfoMapper.insert(userinfo);
     }
     @Override
-    public boolean checkUserName(String name) {
-        int count = this.logininfoMapper.selectCountByUserName(name);
+    public boolean checkUserName(String name,int userType) {
+        int count = this.logininfoMapper.selectCountByUserName(name,userType);
         boolean isexsit = isexsit(count, (e) -> {
             if (e >= 1) {
                 return false;
@@ -76,15 +79,35 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
      * @return
      */
     @Override
-    public Logininfo login(String username, String password) {
+    public Logininfo login(String username, String password,int userType) {
         password = MD5.encode(password);
-        Logininfo logininfo = userinfoMapper.selectByUserNameAndPassword(username, password);
-        if(logininfo!=null{
+        Logininfo logininfo = logininfoMapper.selectByUserNameAndPassword(username,password,userType);
+        if(logininfo!=null){
             UserContext.setLoginInfo(logininfo);
         }
         return logininfo;
     }
 
+    @Override
+    public boolean hasAdminUser() {
+        int count =  this.logininfoMapper.selectUserTypeCount(Logininfo.USERTYPE_USER);
+        return count>0;
+    }
+
+    /**
+     * 创建系统管理员用户
+     */
+    @Override
+    public void createDefaultAdmin() {
+
+        Logininfo logininfo = new Logininfo();
+        logininfo.setUsername(BitConst.DEFAULT_ADMIN_NAME);
+        logininfo.setPassword(MD5.encode(BitConst.DEFAULT_ADMIN_PASSWORD));
+        logininfo.setState(Logininfo.STATE_NORMAL);
+        logininfo.setUsertype(Logininfo.MANAGE_USER);
+        logininfo.setAdmin(true);
+        this.logininfoMapper.insert(logininfo);
+    }
 
     private  boolean isexsit(int count, Predicate<Integer> p){
         return  p.test(count);
