@@ -22,7 +22,7 @@ public interface ILoginInfoService {
      * @param password
      * @return
      */
-    public Logininfo login(String username,String password,int userType);
+    public Logininfo login(String username,String password,int userType,String ip);
 
     /**
      * 判断是否有系统管理员用户

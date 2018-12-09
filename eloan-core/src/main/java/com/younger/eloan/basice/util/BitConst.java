@@ -26,5 +26,5 @@ public class BitConst {
     public final static String DEFAULT_ADMIN_NAME="admin";
 
     //系统后台默认的密码
-    public final static String DEFAULT_ADMIN_PASSWORD="admin123456";
+    public final static String DEFAULT_ADMIN_PASSWORD="123456";
 }

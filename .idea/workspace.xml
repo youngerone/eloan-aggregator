@@ -2,28 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4326449-8c14-414a-a4ee-2834ce03b9ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/SystemDictionaryItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/util/ResultJSON.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/head-tpl.ftl" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/footer-tpl.ftl" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/footer-tpl.ftl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/head-tpl.ftl" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/head-tpl.ftl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/leftmenu-tpl.ftl" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/leftmenu-tpl.ftl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/links-tpl.ftl" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/links-tpl.ftl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/loadSystemDictionary-macro.ftl" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/loadSystemDictionary-macro.ftl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/navbar-tpl.ftl" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/navbar-tpl.ftl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/personal.ftl" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/personal.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-aggregator.iml" afterPath="$PROJECT_DIR$/eloan-aggregator.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Logininfo.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Logininfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Systemdictionaryitem.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Systemdictionaryitem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Userinfo.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Userinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/LogininfoMapper.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/LogininfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/UserinfoMapper.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/UserinfoMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/ILoginInfoService.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/ILoginInfoService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/LoginInfoServiceImpl.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/LoginInfoServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitConst.java" afterPath="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitConst.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/LogininfoMapper.xml" afterPath="$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/LogininfoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-core/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/eloan-core/src/main/resources/generatorConfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-mgrtool/pom.xml" afterPath="$PROJECT_DIR$/eloan-mgrtool/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-uiweb/eloan-uiweb.iml" afterPath="$PROJECT_DIR$/eloan-uiweb/eloan-uiweb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-uiweb/pom.xml" afterPath="$PROJECT_DIR$/eloan-uiweb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/LoginController.java" afterPath="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/listen/AdminUserCreatorListener.java" afterPath="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/listen/AdminUserCreatorListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/LoginController.java" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/RegisterController.java" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/RegisterController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/login.html" afterPath="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,66 +45,26 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="younger@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="younger@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="younger" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUserCreatorListener.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/listen/AdminUserCreatorListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ILoginInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/ILoginInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginInfoServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/LoginInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1219">
-              <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BitConst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitConst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logininfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Logininfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -116,8 +73,8 @@
       <file leaf-file-name="LogininfoMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/LogininfoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="235">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -126,20 +83,46 @@
       <file leaf-file-name="LogininfoMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/LogininfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+            <state relative-caret-position="178">
+              <caret line="41" column="86" lean-forward="false" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="86" />
               <folding>
-                <marker date="1543119672412" expanded="true" signature="787:847" ph="delete from " />
-                <marker date="1543119672412" expanded="true" signature="987:1221" ph="insert into `logininfo`... " />
-                <marker date="1543119672412" expanded="true" signature="1332:1607" ph="update `logi... " />
-                <marker date="1543119672412" expanded="true" signature="1717:1828" ph="select id, u... logininfo" />
-                <marker date="1543119672412" expanded="true" signature="1898:1972" ph="select id, u... logininfo" />
-                <marker date="1543119672412" expanded="true" signature="2080:2138" ph="select count... logininfo" />
-                <marker date="1543119672412" expanded="true" signature="2080:2163" ph="select count... logininfo" />
-                <marker date="1543119672412" expanded="true" signature="2284:2385" ph="SELECT id,us... logininfo" />
-                <marker date="1543119672412" expanded="true" signature="2284:2410" ph="SELECT id,us... logininfo" />
-                <marker date="1543119672412" expanded="true" signature="2501:2559" ph="SELECT COUNT... logininfo" />
+                <marker date="1544319123691" expanded="true" signature="791:851" ph="delete from " />
+                <marker date="1544319123691" expanded="true" signature="991:1229" ph="insert into `logininfo`... " />
+                <marker date="1544319123691" expanded="true" signature="1340:1619" ph="update `logi... " />
+                <marker date="1544319123691" expanded="true" signature="1729:1840" ph="select id, u... logininfo" />
+                <marker date="1544319123691" expanded="true" signature="1910:1984" ph="select id, u... logininfo" />
+                <marker date="1544319123691" expanded="true" signature="2092:2150" ph="select count... logininfo" />
+                <marker date="1544319123691" expanded="true" signature="2092:2175" ph="select count... logininfo" />
+                <marker date="1544319123691" expanded="true" signature="2296:2397" ph="SELECT id,us... logininfo" />
+                <marker date="1544319123691" expanded="true" signature="2296:2422" ph="SELECT id,us... logininfo" />
+                <marker date="1544319123691" expanded="true" signature="2513:2571" ph="SELECT COUNT... logininfo" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/AccountMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-604">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <marker date="1543032335453" expanded="true" signature="1199:1257" ph="delete from " />
+                <marker date="1543032335453" expanded="true" signature="1353:1874" ph="insert into `account`... " />
+                <marker date="1543032335453" expanded="true" signature="1983:2577" ph="update `acco... " />
+                <marker date="1543032335453" expanded="true" signature="2687:2903" ph="select id, t... account" />
+                <marker date="1543032335453" expanded="true" signature="2973:3152" ph="select id, t... account" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,33 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.jar!/org/mybatis/spring/SqlSessionFactoryBean.class" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/MD5.java" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/application-core.xml" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/register.html" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/LogininfoMapper.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/eloan-core/pom.xml" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/spring/applicationContext-core.xml" />
-        <option value="$PROJECT_DIR$/doc/bitstatus.txt" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Systemdictionary.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/UseInfo.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/MaskUtil.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitStatesUtils.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/AccountMapper.xml" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/UserinfoMapper.xml" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/BaseDomain.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Account.java" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/util/UserContext.java" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/util/ResultJSON.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/UserContext.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/LogicException.java" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/resources/application_uiweb.xml" />
         <option value="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/login.html" />
         <option value="$PROJECT_DIR$/eloan-uiweb/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -211,23 +167,50 @@
         <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Systemdictionaryitem.java" />
         <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Userinfo.java" />
         <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/UserinfoMapper.java" />
-        <option value="$PROJECT_DIR$/eloan-mgrtool/pom.xml" />
         <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/resources/application_mgrtool.xml" />
         <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Logininfo.java" />
         <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/BaseController.java" />
         <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/loginController.java" />
         <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/ResultJSON.java" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/LogininfoMapper.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/LogininfoMapper.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/48e16e61-6dc4-4b5f-8667-93e6750f9017/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/48e16e61-6dc4-4b5f-8667-93e6750f9017/console_2.sql" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/ILoginInfoService.java" />
-        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitConst.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Iplog.java" />
+        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/IAccountService.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/IUserInfoService.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/PersonalController.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/head-tpl.ftl" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/QueryObject.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/IpLogQueryObject.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/query/IpLogQueryObject.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/query/PageResult.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/IIpLogService.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/IplogMapper.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/IpLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/IpLogController.java" />
+        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/iplog_list.ftl" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/IpLogController.java" />
+        <option value="$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/IplogMapper.xml" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/pom.xml" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/LogininfoMapper.xml" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Logininfo.java" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/LoginInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitConst.java" />
         <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/listen/AdminUserCreatorListener.java" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/menu.ftl" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/main.ftl" />
+        <option value="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/footer-tpl.ftl" />
       </list>
     </option>
   </component>
@@ -257,7 +240,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eloan-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eloan-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -358,7 +351,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -391,44 +383,6 @@
               <item name="eloan-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
-              <item name="eloan-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
-              <item name="eloan-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
-              <item name="eloan-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
-              <item name="eloan-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -440,16 +394,70 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="eloan-uiweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="eloan-uiweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="eloan-uiweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="eloan-uiweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="eloan-uiweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uiweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="eloan-uiweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uiweb" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eloan-aggregator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eloan-aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="eloan-uiweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eloan-uiweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eloan-mgrtool" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -462,16 +470,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/eloan-mgrtool/src/main/resources" />
-      <recent name="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views" />
-      <recent name="$PROJECT_DIR$/eloan-uiweb/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util" />
+      <recent name="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common" />
+      <recent name="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/query" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.younger.eloan.basice.util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/eloan-core/src/main/resources/com.younger.mapper" />
       <recent name="$PROJECT_DIR$/eloan-core/src/main/resources/spring" />
     </key>
@@ -488,7 +497,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.eloan-uiweb">
+  <component name="RunManager" selected="Maven.eloan-mgrtool">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -570,6 +579,29 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="eloan-mgrtool" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eloan-mgrtool" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration name="eloan-uiweb" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -593,6 +625,10 @@
         </option>
       </MavenSettings>
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Maven.eloan-mgrtool" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.eloan-uiweb" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -623,12 +659,14 @@
       <workItem from="1543031892226" duration="4023000" />
       <workItem from="1543061537399" duration="5263000" />
       <workItem from="1543110415589" duration="456000" />
-      <workItem from="1543111314779" duration="8883000" />
+      <workItem from="1543111314779" duration="9275000" />
+      <workItem from="1544259196175" duration="14903000" />
+      <workItem from="1544316433626" duration="7617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65132000" />
+    <option name="totallyTimeSpent" value="88044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1366" height="718" extended-state="6" />
@@ -638,64 +676,66 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6523973" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20574887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.103658535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46232876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2935943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19349316" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19894099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028744327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08877087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25171232" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1714939" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0777439" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08877087" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21052632" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25684932" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2996965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6523973" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20574887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36946565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08877087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21052632" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21052632" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8639576" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29817906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46232876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25171232" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18759455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,269 +745,145 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/spring/applicationContext-core.xml">
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/PersonalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="29" column="84" lean-forward="false" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/head-tpl.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/e4adb018/48e16e61-6dc4-4b5f-8667-93e6750f9017/younger.systemdictionary" />
-    <entry file="das://table:/e4adb018/48e16e61-6dc4-4b5f-8667-93e6750f9017/younger.systemaccount" />
-    <entry file="file://$PROJECT_DIR$/doc/bitstatus.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/e4adb018/48e16e61-6dc4-4b5f-8667-93e6750f9017/younger.account" />
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/UseInfo.java" />
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/MaskUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitStatesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Systemdictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/AccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/AccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/BaseDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/UserContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../java/jdk1.8.0_191/src.zip!/javax/security/auth/login/LoginException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/LoginException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/util/ResultJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/head-tpl.ftl">
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/common/navbar-tpl.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/common/head-tpl.ftl">
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/personal.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        <state relative-caret-position="2691">
+          <caret line="117" column="20" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/QueryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/views/personal.ftl">
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2277">
-          <caret line="153" column="53" lean-forward="false" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
+        <state relative-caret-position="414">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/IpLogQueryObject.java" />
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/query/QueryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/login.html">
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/IIpLogService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="45" column="59" lean-forward="false" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="59" />
+        <state relative-caret-position="278">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/query/IpLogQueryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/query/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/IpLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/IpLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/WEB-INF/views/iplog_list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/resources/application_mgrtool.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/resources/application_uiweb.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="-552">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/iplog_list.ftl" />
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/ipLog/list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/SystemdictionaryitemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/SystemDictionaryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="58" column="7" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Userinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Systemdictionaryitem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/SystemdictionaryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/UserinfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="18" />
-          <folding>
-            <marker date="1543033785335" expanded="true" signature="2189:2248" ph="delete from " />
-            <marker date="1543033785335" expanded="true" signature="2387:2900" ph="insert into `userinfo`... " />
-            <marker date="1543033785335" expanded="true" signature="3010:3603" ph="update `user... " />
-            <marker date="1543033785335" expanded="true" signature="3713:3921" ph="select id, v... userinfo" />
-            <marker date="1543033785335" expanded="true" signature="3991:4162" ph="select id, v... userinfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/UserinfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/resources/application_mgrtool.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/ResultJSON.java">
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/top.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -975,18 +891,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/css/bank.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/IplogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/RegisterController.java">
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/IplogMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="-644">
+          <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <folding>
+            <element signature="e#978#982#0" expanded="true" />
+            <element signature="e#1064#1068#0" expanded="true" />
+            <marker date="1544316863381" expanded="true" signature="1465:1521" ph="delete from " />
+            <marker date="1544316863381" expanded="true" signature="1657:1959" ph="insert into `iplog`... " />
+            <marker date="1544316863381" expanded="true" signature="2066:2403" ph="update `iplo... " />
+            <marker date="1544316863381" expanded="true" signature="2513:2637" ph="select id, i... iplog" />
+            <marker date="1544316863381" expanded="true" signature="2707:2794" ph="select id, i... iplog" />
+            <marker date="1544316863381" expanded="true" signature="2859:2886" ph="SELECT COUNT... iplog" />
+            <marker date="1544316863381" expanded="true" signature="2961:3017" ph="SELECT FROM iplog" />
+            <marker date="1544316863381" expanded="true" signature="2961:3088" ph="SELECT FROM iplog" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="198" column="12" lean-forward="false" selection-start-line="186" selection-start-column="2" selection-end-line="198" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -998,6 +956,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/e4adb018/48e16e61-6dc4-4b5f-8667-93e6750f9017/younger.account">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/webapp/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/IUserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/IpLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1006,86 +1003,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/loginController.java">
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Logininfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/LogininfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/LogininfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
-          <folding>
-            <marker date="1543119672412" expanded="true" signature="787:847" ph="delete from " />
-            <marker date="1543119672412" expanded="true" signature="987:1221" ph="insert into `logininfo`... " />
-            <marker date="1543119672412" expanded="true" signature="1332:1607" ph="update `logi... " />
-            <marker date="1543119672412" expanded="true" signature="1717:1828" ph="select id, u... logininfo" />
-            <marker date="1543119672412" expanded="true" signature="1898:1972" ph="select id, u... logininfo" />
-            <marker date="1543119672412" expanded="true" signature="2080:2138" ph="select count... logininfo" />
-            <marker date="1543119672412" expanded="true" signature="2080:2163" ph="select count... logininfo" />
-            <marker date="1543119672412" expanded="true" signature="2284:2385" ph="SELECT id,us... logininfo" />
-            <marker date="1543119672412" expanded="true" signature="2284:2410" ph="SELECT id,us... logininfo" />
-            <marker date="1543119672412" expanded="true" signature="2501:2559" ph="SELECT COUNT... logininfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="100">
+          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/ILoginInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="246">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/util/BitConst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/domain/Logininfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/LoginInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        <state relative-caret-position="232">
+          <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/listen/AdminUserCreatorListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="-24">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="29" column="93" lean-forward="false" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/java/com/younger/eloan/mgrtool/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/links-tpl.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/head-tpl.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/navbar-tpl.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/footer-tpl.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <marker date="1544322232403" expanded="false" signature="125:131" ph=" " />
+            <marker date="1544322232403" expanded="false" signature="167:173" ph=" " />
+            <marker date="1544322232403" expanded="false" signature="173:179" ph=" " />
+            <marker date="1544322232403" expanded="false" signature="181:187" ph=" " />
+            <marker date="1544322232403" expanded="false" signature="228:234" ph=" " />
+            <marker date="1544322232403" expanded="false" signature="234:240" ph=" " />
+            <marker date="1544322232403" expanded="false" signature="255:261" ph=" " />
+            <marker date="1544322232403" expanded="false" signature="261:267" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4071">
+          <caret line="180" column="32" lean-forward="false" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-mgrtool/src/main/webapp/WEB-INF/views/common/menu.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-uiweb/src/main/java/com/younger/eloan/uiweb/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/service/Impl/LoginInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/java/com/younger/eloan/basice/mapper/LogininfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/LogininfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="41" column="86" lean-forward="false" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="86" />
+          <folding>
+            <marker date="1544319123691" expanded="true" signature="791:851" ph="delete from " />
+            <marker date="1544319123691" expanded="true" signature="991:1229" ph="insert into `logininfo`... " />
+            <marker date="1544319123691" expanded="true" signature="1340:1619" ph="update `logi... " />
+            <marker date="1544319123691" expanded="true" signature="1729:1840" ph="select id, u... logininfo" />
+            <marker date="1544319123691" expanded="true" signature="1910:1984" ph="select id, u... logininfo" />
+            <marker date="1544319123691" expanded="true" signature="2092:2150" ph="select count... logininfo" />
+            <marker date="1544319123691" expanded="true" signature="2092:2175" ph="select count... logininfo" />
+            <marker date="1544319123691" expanded="true" signature="2296:2397" ph="SELECT id,us... logininfo" />
+            <marker date="1544319123691" expanded="true" signature="2296:2422" ph="SELECT id,us... logininfo" />
+            <marker date="1544319123691" expanded="true" signature="2513:2571" ph="SELECT COUNT... logininfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eloan-core/src/main/resources/com/younger/eloan/basice/mapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-604">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <marker date="1543032335453" expanded="true" signature="1199:1257" ph="delete from " />
+            <marker date="1543032335453" expanded="true" signature="1353:1874" ph="insert into `account`... " />
+            <marker date="1543032335453" expanded="true" signature="1983:2577" ph="update `acco... " />
+            <marker date="1543032335453" expanded="true" signature="2687:2903" ph="select id, t... account" />
+            <marker date="1543032335453" expanded="true" signature="2973:3152" ph="select id, t... account" />
+          </folding>
         </state>
       </provider>
     </entry>

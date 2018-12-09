@@ -39,7 +39,10 @@ public class Logininfo extends  BaseDomain {
      */
     private Integer usertype;
 
-    private Boolean admin;
+    /**
+     * 是否是管理员 0-否 1-是
+     */
+    private Integer admin=0;
 
     /**
      * 平台用户

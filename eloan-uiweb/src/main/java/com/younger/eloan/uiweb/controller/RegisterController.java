@@ -1,6 +1,7 @@
 package com.younger.eloan.uiweb.controller;
 
 import com.younger.eloan.basice.domain.Logininfo;
+import com.younger.eloan.basice.domain.Userinfo;
 import com.younger.eloan.basice.service.ILoginInfoService;
 import com.younger.eloan.basice.util.ResultJSON;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +19,7 @@ public class RegisterController extends BaseController {
     @ResponseBody
     public ResultJSON register(String username, String password){
         try {
-            this.loginInfoService.register(username,password);
+            this.loginInfoService.register(username,password,0);
             return new ResultJSON(true,"注册成功");
         }catch (Exception e){
             return  new ResultJSON(false,e.getMessage());

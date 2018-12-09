@@ -1,6 +1,7 @@
 package com.younger.eloan.basice.service.Impl;
 
 import com.younger.eloan.basice.domain.Account;
+import com.younger.eloan.basice.domain.Iplog;
 import com.younger.eloan.basice.domain.Logininfo;
 import com.younger.eloan.basice.domain.Userinfo;
 import com.younger.eloan.basice.mapper.AccountMapper;
@@ -12,7 +13,6 @@ import com.younger.eloan.basice.util.MD5;
 import com.younger.eloan.basice.util.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import javax.security.auth.login.LoginException;
 import java.util.function.Predicate;
 
@@ -79,11 +79,16 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
      * @return
      */
     @Override
-    public Logininfo login(String username, String password,int userType) {
+    public Logininfo login(String username, String password,int userType,String ip) {
         password = MD5.encode(password);
         Logininfo logininfo = logininfoMapper.selectByUserNameAndPassword(username,password,userType);
+        //用户登录的ip信息
+        Iplog log = new Iplog(ip,Iplog.LOGIN_FAIL,username,null,userType);
         if(logininfo!=null){
             UserContext.setLoginInfo(logininfo);
+            log.setLoginstate(Iplog.LOGIN_SUCCESS);
+            log.setUsername(logininfo.getUsername());
+            log.setLogininfoid(logininfo.getId());
         }
         return logininfo;
     }
@@ -104,8 +109,8 @@ public class LoginInfoServiceImpl implements ILoginInfoService {
         logininfo.setUsername(BitConst.DEFAULT_ADMIN_NAME);
         logininfo.setPassword(MD5.encode(BitConst.DEFAULT_ADMIN_PASSWORD));
         logininfo.setState(Logininfo.STATE_NORMAL);
-        logininfo.setUsertype(Logininfo.MANAGE_USER);
-        logininfo.setAdmin(true);
+        logininfo.setUserType(Logininfo.MANAGE_USER);
+        logininfo.setAdmin(1);
         this.logininfoMapper.insert(logininfo);
     }
 

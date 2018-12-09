@@ -7,7 +7,7 @@
     <result column="password" property="password" jdbcType="VARCHAR" />
     <result column="state" property="state" jdbcType="INTEGER" />
     <result column="usertype" property="usertype" jdbcType="INTEGER" />
-    <result column="admin" property="admin" jdbcType="BIT" />
+    <result column="admin" property="admin" jdbcType="INTEGER" />
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
     delete from `logininfo`
@@ -17,7 +17,7 @@
     insert into `logininfo` (username, password, state, 
       usertype, admin)
     values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{state,jdbcType=INTEGER}, 
-      #{usertype,jdbcType=INTEGER}, #{admin,jdbcType=BIT})
+      #{usertype,jdbcType=INTEGER}, #{admin,jdbcType=INTEGER})
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.younger.eloan.basice.domain.Logininfo" >
     update `logininfo`
@@ -25,7 +25,7 @@
       password = #{password,jdbcType=VARCHAR},
       state = #{state,jdbcType=INTEGER},
       usertype = #{usertype,jdbcType=INTEGER},
-      admin = #{admin,jdbcType=BIT}
+      admin = #{admin,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
